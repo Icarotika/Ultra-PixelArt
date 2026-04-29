@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assistente Acadêmica</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="chat-app">
+      <header class="chat-header">
+        <h1>Assistente Acadêmica</h1>
+        <p>Secretaria virtual da faculdade</p>
+      </header>
+
+      <section id="chat-history" class="chat-history" aria-live="polite"></section>
+
+      <form id="chat-form" class="chat-form">
+        <input
+          id="user-input"
+          type="text"
+          placeholder="Digite sua pergunta..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
