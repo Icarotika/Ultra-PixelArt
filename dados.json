@@ -43,4 +43,27 @@
     "trancamento_semestre": "Até 30 dias após início das aulas",
     "solicitacao_documentos_especiais": "Até 10 dias úteis"
   }
+  "informacoes": {
+    "disciplinas": {
+      "COM141": {
+        "professor": "Professor Silas Gutierrez",
+        "materia": "Comunicação e Expressão"
+      "IAC012": {
+        "professor": "Professor Marcio Galvão Ribeiro",
+        "materia": "Arquitetura e Organização de Computadores"
+      "IAL027": {
+        "professor": "Professora Carmen Lucia de Bartolo Costa",
+        "materia": "Algoritmos e Lógica de Programação"
+      "IES036": {
+        "professor": "Professor Josenyr Santos Rosa",
+        "materia": "Engenharia de Software I"
+      "ISO030": {
+        "professor": "Professor Alexandre Marchiori de Almeida",
+        "materia": "Sistemas Operacionais"
+      "ING401": { 
+        "professor": "Professora Gleiciane Oliveira de Morais",
+        "materia": "Inglês I"
+      "PDS001": {
+        "professor": "Professor Edson Luiz Parisotto",
+        "materia": "Projeto Integrador em Análise e Desenvolvimento de Sistemas I"
 }
