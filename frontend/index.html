@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
@@ -7,13 +7,26 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <main class="chat-app">
-      <header class="chat-header">
-        <h1>Assistente Acadêmica</h1>
-        <p>Secretaria virtual da faculdade</p>
+    <div class="site-bg" aria-hidden="true"></div>
+
+    <!-- Botão flutuante para abrir/fechar o chatbot -->
+    <button id="chat-toggle" class="chat-toggle" aria-label="Abrir assistente">
+      💬
+    </button>
+
+    <!-- Widget do chatbot (inicialmente oculto) -->
+    <aside id="chat-widget" class="chat-widget" aria-hidden="true">
+      <header class="chat-widget-header">
+        <div>
+          <h2>Assistente Acadêmica</h2>
+          <p>Secretaria virtual</p>
+        </div>
+        <button id="chat-close" class="chat-close" aria-label="Fechar">
+          ✕
+        </button>
       </header>
 
-      <section id="chat-history" class="chat-history" aria-live="polite"></section>
+      <main id="chat-history" class="chat-history" aria-live="polite"></main>
 
       <form id="chat-form" class="chat-form">
         <input
@@ -25,7 +38,7 @@
         />
         <button type="submit">Enviar</button>
       </form>
-    </main>
+    </aside>
 
     <script src="./script.js"></script>
   </body>
