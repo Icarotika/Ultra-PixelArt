@@ -23,7 +23,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DADOS_PATH = BASE_DIR / "dados.json"
+DADOS_PATH = BASE_DIR / "backend/dados.json"
 
 app = FastAPI(title="FATMA — Assistente Acadêmica", version="2.0.0")
 
