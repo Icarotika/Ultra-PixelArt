@@ -8,12 +8,13 @@ Projeto simples e funcional dividido em **frontend** (HTML/CSS/JS puro) e **back
 .
 ├── backend/
 │   ├── main.py
-│   └── requirements.txt
+│   ├── requirements.txt
+    └── dados.json
 ├── frontend/
 │   ├── index.html
 │   ├── script.js
 │   └── style.css
-└── dados.json
+└── sobrou foi é nothing paizão
 ```
 
 ## Requisitos
